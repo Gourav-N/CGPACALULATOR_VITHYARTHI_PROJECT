@@ -4,13 +4,21 @@ Overview of the project :
 The "VIT'ian CGPA Calculator" is a simple and effective tool for VIT students to calculate their Grade Point Average (GPA) and Cumulative Grade Point Average (CGPA) throughout their academic journey. Students at VIT often struggle with understanding and calculating their grades due to the unique 'Relative Grading System' implemented for theory courses. This calculator simplifies the process by automating GPA and CGPA calculations based on the VIT grading methodology. The system takes user inputs for course marks, attendance percentage, and class statistics, then returns accurate GPA for each semester and cumulative CGPA. Users can continue calculating GPAs for consecutive semesters or exit at any point with their current CGPA. This project applies fundamental programming concepts to solve a realworld problem faced by VIT students.
 
 Features :
+
 USER INPUTS : The system allows the user to input their marks, attendance percentage, class averageand standard deviation for multiple semesters and different types of courses.
-THEORY COURSE GRADING : For theory courses, the system implements VIT's relative grading logic where grades are determined based on the student's marks relative to the class average and standard deviation, ensuring fair assessment. 
+
+THEORY COURSE GRADING : For theory courses, the system implements VIT's relative grading logic where grades are determined based on the student's marks relative to the class average and standard deviation, ensuring fair assessment.
+
 LABORATORY/PROJECT COURSE GRADING : For laboratory and project-based courses, the system uses an absolute grading scale with predefined grade boundaries based on total marks.
+
 ATTENDANCE VALIDATION : The system calculates attendance marks based on the student's attendance percentage with specific grade cutoffs (96%, 91%, 86%, 81%, 75%) and sets the grade to 'F' if attendance falls below 75%.
+
 VALIDATION : The system validates all user inputs to ensure they are within acceptable ranges before performing calculations, providing error messages for invalid entries.
+
 OUTPUT : The system displays the course credits, grades, grade points, GPA for the current semester, and the cumulative CGPA with proper formatting.
+
 MULTIPLE SEMESTER SUPPORT : The system supports up to 8 semesters of data entry, allowingstudents to calculate their entire academic record or stop at any point based on their preference.
+
 DUAL COURSE TYPE SUPPORT : The system differentiates between theory courses (LTP/LT) and laboratory/project-based courses (PJ) and applies the appropriate grading methodology for each.
 
 Tools used :
