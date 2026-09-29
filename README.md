@@ -30,7 +30,7 @@ Concepts used : Functions, Conditional statements (if, elif, else, nested if), I
 
 Steps to run the program : 
 
-1. Download the source code file named "gov.py" from the repository.
+1. Download the source code file named "IPSP_PRO_VIT_GPA_CGPA_Calculator.py" from the repository.
 2. The source code can be executed on any platform that supports Python execution (Windows, Mac,Linux).
 3. Open the file in any Python code executing platform such as Jupyter Notebook, Spyder, VS Code, or any Python IDE.
 4. Run the program and follow the on-screen prompts and guidelines to enter your course and semester details.
